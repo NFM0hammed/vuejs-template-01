@@ -1,0 +1,43 @@
+/*
+    Media Queries
+    ==========> Extra Large size <==========
+*/
+/*
+    Mixins for keyframes
+    ==========> Move Up Down <==========
+*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Open+Sans:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;700&family=Roboto:wght@100;300;500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title {
+  color: #000;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+.main-title span {
+  color: #00bbf0;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+// Mixin for prefixes
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  // No prefixes
+  #{$property}: $value;
+}
+
+/*
+    Mixins for keyframes
+    ==========> Move Up Down <==========
+*/
+@mixin moveUpDown() {
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(100px);
+    }
+  }
+}

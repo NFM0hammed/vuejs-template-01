@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Open+Sans:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;700&family=Roboto:wght@100;300;500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  @include prefix(box-sizing, border-box, webkit moz);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (#{$smallWidth}) {
+    & {
+      width: 750px;
+    }
+  }  
+  @media (#{$mediumWidth}) {
+    & {
+      width: 970px;
+    }
+  }  
+  @media (#{$largeWidth}) {
+    & {
+      width: 1170px;
+    }
+  }  
+}
+
+.main-title {
+  color: #000;
+  text-align: center;
+  margin: 0;
+  font: {
+    size: 30px;
+  }
+  span {
+    color: $skyColor;
+  }
+}

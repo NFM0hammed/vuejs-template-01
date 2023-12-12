@@ -1,0 +1,44 @@
+// Padding top, bottom
+$padding: 100px;
+
+// Main background
+$mainBackgroundColor: linear-gradient(80deg,#231a6f,#0f054c);
+
+// Second Color
+$secondBackgroundColor: #00204a;
+
+// Third coloe
+$thirdBackgroundColor: linear-gradient(to bottom,#002759,#002b64);
+
+// White color
+$whiteColor: white;
+
+// Sky color
+$skyColor: #00bbf0;
+
+// Main transtion
+$mainTransition: all .2s ease-in-out;
+
+/*
+    Media Queries
+    ==========> Extra Large size <==========
+*/
+$extraLargeScreen: "max-width: 1199px";
+
+//  ==========> Large size <==========
+$largeScreen: "max-width: 991px";
+
+//  ==========> Medium size <==========
+$mediumScreen: "max-width: 767px";
+
+//  ==========> Small size <==========
+$smallScreen: "max-width: 581px";
+
+//  ==========> Container small width <==========
+$smallWidth: "min-width: 768px";
+
+//  ==========> Container medium width <==========
+$mediumWidth: "min-width: 992px";
+
+//  ==========> Container large width <==========
+$largeWidth: "min-width: 1200px";
