@@ -1,24 +1,16 @@
 # vuejs-template-2
 
-## Project setup
+## Project setup (Install packages)
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Install http protocol
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm install -g serve
 ```
 
-### Lints and fixes files
+### Watch project (dist folder)
 ```
-npm run lint
+serve -s dist
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
